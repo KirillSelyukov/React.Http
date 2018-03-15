@@ -19,9 +19,6 @@ class FullPost extends Component {
             }
         }
     }
-    // shouldComponentUpdate = (prevProps, prevState) => {
-    //     return prevState.loadedPost !== this.state.loadedPost;
-    // }
 
     render() {
         let post = <p style={{ textAlign: 'center' }}> Please select a Post!</p>;
