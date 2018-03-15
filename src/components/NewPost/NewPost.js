@@ -23,10 +23,6 @@ class NewPost extends Component {
             });
     }
 
-    componentWillUpdate() {
-        console.log('[NewPost]componentWillUpdate');
-    }
-
     render() {
         return (
             <div className="NewPost">
