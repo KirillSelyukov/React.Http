@@ -9,7 +9,6 @@ import './Posts.css';
 export class Posts extends Component {
     state = {
         posts: [],
-
     };
 
     postSelectedhandler = (id) => {
